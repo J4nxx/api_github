@@ -30,6 +30,6 @@ my_style = Style(color = "128AF3")
 my_config = pygal.Config()
 chart = pygal.Bar(style = my_style, x_label_rotation = 60, show_legend = True)
 chart.title = "Most-Starred Python and JavaScript Projects on GitHub"
-chart.add("Javascript", javas_stars)
+chart.add("JavaScript", javas_stars)
 chart.add("Python", python_stars)
 chart.render_in_browser()
